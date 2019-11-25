@@ -11,17 +11,17 @@ Copy  `ActivityView.swift` file to your project. That's it.
 ### Swift Package Manager
 
 #### Add dependencies
-Add the `ActivityView` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `ActivityView` [release](https://github.com/IBM-Swift/Swift-JWT/releases).
+Add the `ActivityView` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `ActivityView` release.
 ```swift
-.package(url: "https://github.com/IBM-Swift/Swift-JWT.git", from: "x.x.x")
+.package(url: "https://github.com/emartife/ActivityView.git", from: "x.x.x")
 ```
-Add `SwiftJWT` to your target's dependencies:
+Add `ActivityView` to your target's dependencies:
 ```swift
-.target(name: "example", dependencies: ["SwiftJWT"]),
+.target(name: "example", dependencies: ["ActivityView"]),
 ```
 #### Import package
 ```swift
-import SwiftJWT
+import ActivityView
 ```
 
 ## Usage
